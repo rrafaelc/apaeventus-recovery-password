@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const encryptedEmail = urlParams.get('data');
 
 // API base URL - change this to your actual API URL
-const API_BASE_URL = 'http://18.191.252.46';
+const API_BASE_URL = 'https://apaeventus.rafaelcostadev.com';
 
 // Password validation rules
 const passwordRules = {
